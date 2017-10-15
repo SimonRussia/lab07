@@ -6,7 +6,6 @@
 
 	В данном файле задекларирована функция print с разной семантикой.
 */
-
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -18,7 +17,6 @@
 \param[in] out Переопределенный опреатор вывода.
 */
 void print(const std::string& text, std::ostream& out = std::cout);
-
 /*!
 Выводит сообщение в консоль.
 
